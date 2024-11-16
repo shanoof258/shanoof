@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Document</title>
+</head>
+<body >
+    <section id="header bg-dark">
+      <header>
+        <nav class="container-fluid " style="position: fixed;z-index: 10; background-color: #121212;">
+          <div class="container  " id="nav-cont"style=" background-color: #121212">
+          <ul class=""style=" background-color: #121212">
+            <li ><a href="index.html" style=" background-color: #121212">Home</a></li>
+            <li class="bg-dark"><a href="index.html#about"  style=" background-color: #121212">About</a></li>
+            <li class="bg-dark"><a href="projects.html" style=" background-color: #121212">projects</a></li>
+            <li class="bg-dark"><a href="index.html#contacts" style=" background-color: #121212">Contact</a></li>
+          </ul>
+        </div>
+        <!-- mobile nav -->
+         <div class="container" id="mobile-nav" >
+          <i class="bi bi-list" id="menu-icon" ></i>
+          <div class="navbox">
+            <ul>
+              <li><a href="index.html">Home</a> </li>
+              <li><a href="#about">About</a> </li>
+              <li><a href="projects.html">projects</a> </li>
+              <li><a href="index.html#contacts">Contact</a> </li>
+            </ul>
+          </div>
+          
+         </div>
+           
+          
+         
+
+        </nav>
+      </header>
+    
+              </section>
+              <div class="margin-line"></div>
+    </section>
+    <main >
+         <!-- graphic design -->
+    <section id="graphic-design">
+        <div class="container " style=" background-color: #121212">
+            <h3 class="p-4 " style=" background-color: #121212">
+                Graphic Design
+               </h3>
+               <div class="flex-container   justify-content-center" style=" background-color: #121212;">
+                <div class="flex-item"><img src="assets/img/Screenshot 2024-10-03 123606.png" alt="Image 1"></div>
+                <div class="flex-item"><img src="assets/img/Screenshot 2024-10-03 123345.png" alt="Image 2"></div>
+                <div class="flex-item"><img src="assets/img/Screenshot 2024-10-03 123427.png" alt="Image 3"></div>
+                <div class="flex-item"><img src="assets/img/Screenshot 2024-10-03 123508.png" alt="Image 4"></div>
+                <div class="flex-item"><img src="assets/img/Screenshot 2024-10-03 123537.png" alt="Image 5"></div>
+                <div class="flex-item"><img src="assets/img/Screenshot 2024-10-03 124213.png" alt="Image 6"></div>
+                <div class="flex-item"><img src="assets/img/Screenshot 2024-10-03 124056.png" alt="Image 7"></div>
+                <div class="flex-item"><img src="assets/img/Screenshot 2024-10-03 124021.png" alt="Image 8"></div>
+                <div class="flex-item"><img src="assets/img/Screenshot 2024-10-03 123606.png" alt="Image 9"></div>
+                <!-- <div class="flex-item"><img src="" alt="Image 10"></div> -->
+            </div>
+
+        </div>
+       
+
+    </section>
+   
+    <section class= "vedio-editing  " style=" background-color: #121212">
+          <div class="container " style=" background-color: #121212">
+            <h3 class="p-4 " style=" background-color: #121212">
+              Video Editing
+             </h3>
+            <div class="video-grid " style=" background-color: #121212" >
+              <div class="video-item" data-video="assets/vedio/1.mp4">
+                  <video muted loop playsinline>
+                      <source src="assets/vedio/1.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="video-item" data-video="assets/vedio/2.mp4">
+                  <video muted loop playsinline>
+                      <source src="assets/vedio/2.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="video-item" data-video="assets/vedio/2.mp4">
+                  <video muted loop playsinline>
+                      <source src="assets/vedio/3.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="video-item" data-video="assets/vedio/4.mp4">
+                  <video muted loop playsinline>
+                      <source src="assets/vedio/4.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="video-item" data-video="assets/vedio/5.mp4">
+                  <video muted loop playsinline>
+                      <source src="assets/vedio/5.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="video-item" data-video="assets/vedio/6.mp4">
+                  <video muted loop playsinline>
+                      <source src="assets/vedio/6.mp4" type="video/mp4">
+                  </video>
+              </div>
+          </div>
+      
+          <div id="videoModal" class="modal">
+              <span class="close">&times;</span>
+              <video id="modalVideo" controls>
+                  <source id="modalVideoSource" src="" type="video/mp4">
+              </video>
+          </div>
+
+          </div>
+    </section>
+
+    </main>
+    <footer style="background-color: #000000; color: #fff; padding: 30px 0; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div style="margin-bottom: 15px;">
+                <a href="https://www.linkedin.com/in/yourprofile" style="color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold;">LinkedIn</a>
+                <a href="https://github.com/yourprofile" style="color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold;">GitHub</a>
+                <a href="mailto:shanoof0p258@gmail.com" style="color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold;">Email</a>
+            </div>
+            <p style="font-size: 14px; margin-top: 10px;">&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+  
+      
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"> </script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="assets/js/main.js"></script>
+</html>
